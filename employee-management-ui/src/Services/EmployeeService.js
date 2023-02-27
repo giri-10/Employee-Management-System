@@ -22,6 +22,11 @@ class EmployeeService {
   updateEmployee(employee, id) {
     return axios.put(EMPLOYEE_BASE_URL + "/" + id, employee);
   }
-}
 
+  loginUser(loginDetail){
+    return axios.post("http://localhost:3000/login",loginDetail).then((response)=>response.data);
+  }
+
+}
+ 
 export default new EmployeeService();

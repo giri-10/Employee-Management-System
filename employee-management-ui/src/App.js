@@ -4,6 +4,8 @@ import "./App.css";
 import AddEmployee from "./Components/AddEmployee";
 import UpdateEmployee from "./Components/UpdateEmployee";
 import Navbar from "./Components/Navbar";
+import Login from "./Components/Login";
+import Register from "./Components/Register";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Navbar /> 
         <Routes>
           <Route index element={<EmployeeList />} />
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/register" element={<Register />}></Route>
           <Route path="/" element={<EmployeeList />}></Route>
           <Route path="/employeeList" element={<EmployeeList />} />
           <Route path="/addEmployee" element={<AddEmployee />} />

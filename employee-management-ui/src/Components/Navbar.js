@@ -1,13 +1,13 @@
 import React from "react";
+import logo from "./logo.png";
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-700">
-      <div className="h-16 px-8 flex items-center">
-        <p className="text-white font-mono font-bold">
-          Employee Management System
-        </p>
-      </div>
+    <div style={{background:"#1255A5"}}>
+      <Link to="/register">
+          <img src={logo} style={{height:"36px", width:"350px"}} className="content-center" alt="logo" />
+      </Link>
     </div>
   );
 };
