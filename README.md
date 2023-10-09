@@ -1,11 +1,8 @@
 
-## Employee Management Website Documentation
+## Employee Management Website
 
 ### Introduction
 This Employee Management website is a web application built using React for the frontend and Spring Boot for the backend. It provides simple CRUD (Create, Read, Update, Delete) functionality for managing employee records.
-
-
-- Spring Boot: https://spring.io/projects/spring-boot
 
 ### Installation
 Follow these steps to set up and run the application:
