@@ -44,10 +44,3 @@ Once the application is running, you can perform the following actions:
 ### Dependencies
 - Frontend dependencies are managed using npm and listed in the `package.json` file.
 - Backend dependencies are managed using Maven and listed in the `pom.xml` file.
-
-
-### License
-This project is licensed under the [MIT License](LICENSE).
-
-### Acknowledgments
-- This project was created as a learning exercise and may serve as a starting point for building more complex applications.
